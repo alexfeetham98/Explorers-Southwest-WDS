@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #EFBB10;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../assets/images/exploring9.jpeg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
