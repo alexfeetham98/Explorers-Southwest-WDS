@@ -140,7 +140,6 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
 	}
 
 	em, i {
@@ -2055,8 +2054,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
-		color: #fff;
+		background: #ffffff;
+		color: #EFBB10;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2076,8 +2075,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #fff;
-			background: #ef8376;
+			color: #ffffff;
+			background: #EFBB10;
 		}
 
 		input[type="button"].alt,
@@ -2176,7 +2175,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../assets/images/exploring9.jpeg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
