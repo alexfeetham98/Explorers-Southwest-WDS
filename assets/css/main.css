@@ -1934,7 +1934,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #EE9805;
 				}
 
 /* Form */
@@ -1971,7 +1971,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color: #EE9805;
 		}
 
 	form input[type="text"],
@@ -2084,7 +2084,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #055BEE;
+			background: #EE9805;
 		}
 
 			input[type="button"].alt:hover,
@@ -2092,13 +2092,14 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #055BEE;
+				background: #EE9805;
 			}
 
 /* Post */
 
 	.post.stub {
 		text-align: center;
+		color: #111;
 	}
 
 		.post.stub header {
@@ -2459,8 +2460,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
-		color: #fff;
+		background: none;
 	}
 
 		#footer .icon.circled {
@@ -2474,7 +2474,7 @@ input, select, textarea {
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #fff;
+			color: #2b252c;
 		}
 
 		#footer .contact {
@@ -2498,7 +2498,7 @@ input, select, textarea {
 			}
 
 				#footer .copyright a:hover {
-					color: rgba(212, 212, 212, 0.85);
+					color: #EE9805;
 				}
 
 /* Carousel */
@@ -2548,7 +2548,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color:#EE9805;
 			}
 
 		.carousel .forward {
