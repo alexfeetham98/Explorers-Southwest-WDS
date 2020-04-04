@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #EE9805;
 			border-bottom-color: transparent;
 		}
 
@@ -1971,7 +1971,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #EE9805;
+			border-color: #df7366;
 		}
 
 	form input[type="text"],
@@ -2054,8 +2054,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #EE9805;
-		color: #9805EE;
+		background: #ffffff;
+		color: #EFBB10;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2063,7 +2063,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 400;
+		font-weight: 300;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2075,8 +2075,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #EE9805;
-			background: #9805EE;
+			color: #ffffff;
+			background: #EFBB10;
 		}
 
 		input[type="button"].alt,
@@ -2084,7 +2084,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #EE9805;
+			background: #2B252C;
 		}
 
 			input[type="button"].alt:hover,
@@ -2092,7 +2092,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #EE9805;
+				background: #3B353C;
 			}
 
 /* Post */
@@ -2291,6 +2291,12 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 	}
+	
+		/*   On Hover - Change Text Colour Orange   */
+		#nav ul li a:hover {
+			color: #EE9805;
+	  	}
+		
 
 		#nav > ul {
 			line-height: 0px;
@@ -2336,6 +2342,7 @@ input, select, textarea {
 				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 			}
 
+				/*   If Active Page - Box The Nav Item   */
 				#nav > ul > li.active {
 					border-color: rgba(192, 192, 192, 0.35);
 				}
@@ -2375,8 +2382,9 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			/*   On Hover - Change Text Colour Orange   */
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #EE9805;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2460,7 +2468,8 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: none;
+		background: #2b252c;
+		color: #fff;
 	}
 
 		#footer .icon.circled {
@@ -2474,7 +2483,13 @@ input, select, textarea {
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #2b252c;
+			color: #fff;
+		}
+
+		#footer hr {
+			top: 1em;
+			margin-bottom: 5em;
+			height: 3px;
 		}
 
 		#footer .contact {
