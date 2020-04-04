@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #EE9805;
 			border-bottom-color: transparent;
 		}
 
@@ -1934,7 +1934,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #EE9805;
 				}
 
 /* Form */
@@ -2099,6 +2099,7 @@ input, select, textarea {
 
 	.post.stub {
 		text-align: center;
+		color: #111;
 	}
 
 		.post.stub header {
@@ -2290,6 +2291,12 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 	}
+	
+		/*   On Hover - Change Text Colour Orange   */
+		#nav ul li a:hover {
+			color: #EE9805;
+	  	}
+		
 
 		#nav > ul {
 			line-height: 0px;
@@ -2335,6 +2342,7 @@ input, select, textarea {
 				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 			}
 
+				/*   If Active Page - Box The Nav Item   */
 				#nav > ul > li.active {
 					border-color: rgba(192, 192, 192, 0.35);
 				}
@@ -2374,8 +2382,9 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			/*   On Hover - Change Text Colour Orange   */
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #EE9805;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2477,6 +2486,12 @@ input, select, textarea {
 			color: #fff;
 		}
 
+		#footer hr {
+			top: 1em;
+			margin-bottom: 5em;
+			height: 3px;
+		}
+
 		#footer .contact {
 			text-align: center;
 		}
@@ -2498,7 +2513,7 @@ input, select, textarea {
 			}
 
 				#footer .copyright a:hover {
-					color: rgba(212, 212, 212, 0.85);
+					color: #EE9805;
 				}
 
 /* Carousel */
@@ -2548,7 +2563,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color:#EE9805;
 			}
 
 		.carousel .forward {

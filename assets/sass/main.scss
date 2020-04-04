@@ -495,7 +495,7 @@
 				color: inherit;
 
 				&:hover {
-					color: #ef8376;
+					color: #EE9805;
 				}
 			}
 		}
@@ -528,7 +528,7 @@
 
 			&:focus {
 				background: #fff;
-				border-color: #df7366;
+				border-color: #EE9805;
 			}
 		}
 
@@ -706,6 +706,7 @@
 		padding: 6em 0 6em 0;
 
 		&.style1 {
+			padding-top: 0;
 		}
 
 		&.style2 {

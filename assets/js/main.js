@@ -14,7 +14,7 @@
 				carousels: {
 					speed: 4,
 					fadeIn: true,
-					fadeDelay: 250
+					fadeDelay: 200
 				},
 
 		};
@@ -38,7 +38,7 @@
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			mode: 'fade',
-			speed: 350,
+			speed: 250,
 			noOpenerFade: true,
 			alignment: 'center'
 		});
