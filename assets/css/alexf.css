@@ -1,10 +1,108 @@
+/* Does what it says on the tin */
 .red-text
 {
     font-size: 15px;
     color: red;
 }
 
+/* Does what it says on the tin */
 .center-form
 {
     display:flex;
+}
+
+/* 
+    This is where the fun beings :)
+    Default class to set the image, BUT...
+*/
+#header2 {
+    position: relative;
+    background-image: url("../../assets/images/exploring9.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 7.5em 0 2em 0;
+    cursor: default;
+}
+
+/*
+    ...if the screen width > 735px && < 1300px then
+    change the image so that it creates a better fit
+    and so that the nav bar and page title are readable
+*/
+@media screen and (min-width:735px) and (max-width:1300px){
+    #header2 {
+        position: relative;
+        background-image: url("../../assets/images/nav.jpeg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        color: #fff;
+        text-align: center;
+        padding: 7.5em 0 2em 0;
+        cursor: default;
+    }
+}
+
+/* All below is copy of main.cc required to maintain formatting */
+#header2:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#header2 .inner {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header2 header {
+    display: inline-block;
+}
+
+    #header2 header > p {
+        font-size: 1.25em;
+        margin: 0;
+    }
+
+#header2 h1 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+    #header2 h1 a {
+        color: inherit;
+    }
+
+#header2 .button {
+    display: inline-block;
+    border-radius: 100%;
+    width: 4.5em;
+    height: 4.5em;
+    line-height: 4.5em;
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0;
+}
+
+#header2 hr {
+    top: 1.5em;
+    margin-bottom: 3em;
+    border-bottom-color: rgba(192, 192, 192, 0.35);
+    box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
+}
+
+    #header2 hr:before, #header2 hr:after {
+        background: rgba(192, 192, 192, 0.35);
+    }
+
+#header2 footer {
+    margin: 1em 0 0 0;
 }
